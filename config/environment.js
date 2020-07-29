@@ -20,6 +20,10 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    'ember-service-worker-update-notify': {
+      pollingInterval: 1000 // 1200000 // Default is 20min
     }
   };
 
