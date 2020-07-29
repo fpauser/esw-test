@@ -1,5 +1,7 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<ServiceWorkerUpdateNotify>
+  <a class="service-worker-update-notify" href={{this.router.currentURL}}>
+    A new version is available, click here to update.
+  </a>
+</ServiceWorkerUpdateNotify>
 
 {{outlet}}
